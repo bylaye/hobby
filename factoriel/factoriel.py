@@ -31,3 +31,15 @@ def factoriel_boucle(nombre):
 NB: la methode recursive atteindra ses limites pour une valeur 
 superieur a 998
 """
+
+"""
+#pour tester ces fonctions on a deux options
+1. soite on demande a l'utilisateur de saisir le nombre
+dans ce cas on aura a verifier la saisie si le nombre est 
+entier et positif ou nul
+2. soite on moment d'appeler la fonction on y met aussi le nombre 
+mais aussi en veillant a ce que le nombre soit positif ou nul 
+"""
+# on opte pour l'option 2
+print("resultat avec boucle = ",factoriel_boucle(7))
+print("resultat avec resursivite = ",factoriel_recursive(6))
