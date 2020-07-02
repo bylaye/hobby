@@ -8,6 +8,7 @@ def cesar_dechiffre_nombre(valeur, decalage):
 def cesar_chiffre_message(message,decalage):
     message_crypte = []
     for caractere in message: 
+        caractere = caractere.upper() # converti le caractere en majuscule
         nb = ord(caractere) - 65 # converti caractere en nombre
         nb_crypte = cesar_chiffre_nombre(nb, decalage)
         caractere_crypte = chr(nb_crypte+65) # converti nombre en caractere
