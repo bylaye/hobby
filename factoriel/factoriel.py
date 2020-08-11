@@ -26,6 +26,9 @@ def factoriel_boucle(nombre):
 			resultat = resultat * i
 	return resultat 
 
+# le nombre de chiffre que comporte un nombre factoriel 
+def nombre_chiffre(valeur):
+    return len(str(valeur))
 
 """
 NB: la methode recursive atteindra ses limites pour une valeur 
